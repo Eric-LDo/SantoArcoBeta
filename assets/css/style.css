@@ -151,6 +151,7 @@ main{
 .mainCont{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .pratos{
     height: 200px;
@@ -207,10 +208,46 @@ main{
     display: flex;
     justify-content: space-between;
 }
+.descricao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .prato1 .imgProduto{
     background-image: url('../img/portfolio/1.jpg');
     background-size: cover;
     background-position: -20px;
+}
+.prato2 .imgProduto{
+    background-image: url('../img/portfolio/2.jpg');
+    background-size: cover;
+    background-position:-50px;
+}
+.prato3 .imgProduto{
+    background-image: url('../img/portfolio/3.jpg');
+    background-size: cover;
+    background-position:-20px;
+}
+.prato4 .imgProduto{
+    background-image: url('../img/portfolio/4.jpg');
+    background-size: cover;
+    background-position:-40px;
+}
+.prato5 .imgProduto{
+    background-image: url('../img/portfolio/5.jpg');
+    background-size: cover;
+    background-position:-40px;
+}
+.prato6 .imgProduto{
+    background-image: url('../img/portfolio/6.jpg');
+    background-size: cover;
+    background-position:-40px;
+}
+.prato7 .imgProduto{
+    background-image: url('../img/portfolio/7.jpg');
+    background-size: cover;
+    background-position:-40px;
 }
 .porcaoI, .porcaoM{
     flex:1;
@@ -226,6 +263,13 @@ main{
 }
 .porcaoM{
     border-right: 1px solid var(--color--cinza);
+}
+.sections{
+    width: 100%;
+}
+.tituloSec{
+    text-align: center;
+
 }
 
 
