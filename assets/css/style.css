@@ -353,10 +353,32 @@ main{
 }
 
 
-
-
-
 /*.................Ptiscos Porções/unidade .......................*/
+
+
+
+/*.......................Ptiscos Porções..........................*/
+
+
+#prato18 .imgProduto{
+    background-image: url('../img/portfolio/18.jpg');
+    background-size: cover;
+}
+#prato19 .imgProduto{
+    background-image: url('../img/portfolio/19.jpg');
+    background-size: cover;
+    
+}
+#prato20 .imgProduto{
+    background-image: url('../img/portfolio/20.jpg');
+    background-size: cover;
+    
+}
+
+
+/*.......................Ptiscos Porções..........................*/
+
+
 /*................configuração das seções.......................*/
 /*.................de diferentes pedidos .......................*/
 
