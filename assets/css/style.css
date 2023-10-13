@@ -104,6 +104,7 @@ header .container{
     font-family:var(--font--header);
     font-size: 60px;
     text-shadow: 0px 0px 7px black;
+    text-align: center;
     
 }
 .blur{
@@ -152,6 +153,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 .pratos{
     height: 200px;
@@ -214,40 +217,16 @@ main{
     justify-content: center;
     align-items: center;
 }
-.prato1 .imgProduto{
-    background-image: url('../img/portfolio/1.jpg');
-    background-size: cover;
-    background-position: -20px;
+.tituloSec {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 90px;
+    border-bottom:2px solid #716f6f;
+    width: 100%;
 }
-.prato2 .imgProduto{
-    background-image: url('../img/portfolio/2.jpg');
-    background-size: cover;
-    background-position:-50px;
-}
-.prato3 .imgProduto{
-    background-image: url('../img/portfolio/3.jpg');
-    background-size: cover;
-    background-position:-20px;
-}
-.prato4 .imgProduto{
-    background-image: url('../img/portfolio/4.jpg');
-    background-size: cover;
-    background-position:-40px;
-}
-.prato5 .imgProduto{
-    background-image: url('../img/portfolio/5.jpg');
-    background-size: cover;
-    background-position:-40px;
-}
-.prato6 .imgProduto{
-    background-image: url('../img/portfolio/6.jpg');
-    background-size: cover;
-    background-position:-40px;
-}
-.prato7 .imgProduto{
-    background-image: url('../img/portfolio/7.jpg');
-    background-size: cover;
-    background-position:-40px;
+.tituloSec2{
+    text-align: center;
+    margin: 40px;
 }
 .porcaoI, .porcaoM{
     flex:1;
@@ -255,6 +234,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 .porcaoI h2, .porcaoM h2{
@@ -266,13 +246,117 @@ main{
 }
 .sections{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.tituloSec{
-    text-align: center;
 
+
+
+/*.................Ptiscos Frios .......................*/
+
+
+
+#prato1 .imgProduto{
+    background-image: url('../img/portfolio/1.jpg');
+    background-size: cover;
+    background-position: -20px;
+}
+#prato2 .imgProduto{
+    background-image: url('../img/portfolio/2.jpg');
+    background-size: cover;
+    background-position:-50px;
+}
+#prato3 .imgProduto{
+    background-image: url('../img/portfolio/3.jpg');
+    background-size: cover;
+    background-position:-20px;
+}
+#prato4 .imgProduto{
+    background-image: url('../img/portfolio/4.jpg');
+    background-size: cover;
+    background-position:-40px;
+}
+#prato5 .imgProduto{
+    background-image: url('../img/portfolio/5.jpg');
+    background-size: cover;
+    background-position:-40px;
+}
+#prato6 .imgProduto{
+    background-image: url('../img/portfolio/6.jpg');
+    background-size: cover;
+    background-position:-40px;
+}
+#prato7 .imgProduto{
+    background-image: url('../img/portfolio/7.jpg');
+    background-size: cover;
+    background-position:-40px;
 }
 
 
+/*.................Ptiscos Frios .......................*/
+
+/*.................Ptiscos Porçõe/unidade .......................*/
+
+
+
+
+#prato8 .imgProduto{
+    background-image: url('../img/portfolio/8.jpg');
+    background-size: cover;
+}
+#prato9 .imgProduto{
+    background-image: url('../img/portfolio/9.jpg');
+    background-size: cover;
+    background-position: -30px;
+}
+#prato10 .imgProduto{
+    background-image: url('../img/portfolio/10.jpg');
+    background-size: cover;
+}
+#prato11 .imgProduto{
+    background-image: url('../img/portfolio/11.jpg');
+    background-size: cover;
+    background-position: 0px -70px;
+}
+#prato12 .imgProduto{
+    background-image: url('../img/portfolio/12.jpg');
+    background-size: cover;
+    background-position: 0px -40px;
+}
+#prato13 .imgProduto{
+    background-image: url('../img/portfolio/13.jpg');
+    background-size: cover;
+    background-position: -20px ;
+}
+#prato14 .imgProduto{
+    background-image: url('../img/portfolio/14.jpg');
+    background-size: cover;
+    background-position: -20px ;
+}
+#prato15 .imgProduto{
+    background-image: url('../img/portfolio/15.jpg');
+    background-size: cover;
+    background-position: -10px ;
+}
+#prato16 .imgProduto{
+    background-image: url('../img/portfolio/16.jpg');
+    background-size: cover;
+    background-position: 0px 4px ;
+}
+#prato17 .imgProduto{
+    background-image: url('../img/portfolio/17.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+/*.................Ptiscos Porções/unidade .......................*/
 /*................configuração das seções.......................*/
 /*.................de diferentes pedidos .......................*/
 
