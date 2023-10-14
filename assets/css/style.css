@@ -372,8 +372,42 @@ main{
 #prato20 .imgProduto{
     background-image: url('../img/portfolio/20.jpg');
     background-size: cover;
+    background-position: -20px;
     
 }
+#prato21 .imgProduto{
+    background-image: url('../img/portfolio/21.jpg');
+    background-size: cover;
+    background-position: -20px;
+    
+}
+#prato22 .imgProduto{
+    background-image: url('../img/portfolio/22.jpg');
+    background-size: cover;
+    background-position: -20px;
+    
+}
+#prato23 .imgProduto{
+    background-image: url('../img/portfolio/23.jpg');
+    background-size: cover;
+    background-position: -20px;
+    
+}
+#prato24 .imgProduto{
+    background-image: url('../img/portfolio/24.jpg');
+    background-size: cover;
+    background-position: -20px;
+    
+}
+#prato25 .imgProduto{
+    background-image: url('../img/portfolio/25.jpg');
+    background-size: cover; 
+}
+#prato26 .imgProduto{
+    background-image: url('../img/portfolio/26.jpg');
+    background-size: cover; 
+}
+
 
 
 /*.......................Ptiscos Porções..........................*/
