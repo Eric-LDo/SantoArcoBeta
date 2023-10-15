@@ -5,6 +5,7 @@
     --color--cinza:#716f6f;
     --color--funpedidos:#ffc80038;
     --color--transparente:#00000000;
+    --color--transparente2:#00000080;
     --font--header:'Times New Roman', Times, serif;
 }
 *{
@@ -19,11 +20,37 @@
     display: flex;
     justify-content: center;
 }
+
 /*.................configurações gerais........................*/
 
+/*.................configurações do pedido.......................*/
 
+.pedido{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color--transparente2);
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    justify-content: center;
+    align-items: center;
+
+}
+.quadradoPedido{
+    width: 80vw;
+    height: 80vh;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px var(--color--navbg);
+    
+}
+
+
+/*.................configurações do pedido.......................*/
 
 /*.................configurações do navbar.......................*/
+
+
 .navbar{
     width: 100%;
     z-index: 9999;
@@ -145,6 +172,9 @@ main{
     width: 100%;
     justify-content: center;
 }
+main .container{
+    flex-direction: column;
+}
 /*................configurações do main........................*/
 
 /*................configuração das seções.......................*/
@@ -165,8 +195,8 @@ main{
     display:flex; 
 }
 .pratos:hover{
-    height: 195px;
-    width: 455px;
+    height: 205px;
+    width: 500px;
     background-color:var(--color--funpedidos) ;
 }
 .pratoSepara{
@@ -294,6 +324,12 @@ main{
     background-position:-40px;
 }
 
+/*.....................Combos de petiscos.......................*/
+
+
+
+/*.....................Combos de petiscos.......................*/
+
 
 /*.................Ptiscos Frios .......................*/
 
@@ -413,6 +449,196 @@ main{
 /*.......................Ptiscos Porções..........................*/
 
 
+
+
+
+/*......................Porção na Chapa...........................*/
+
+
+#prato27 .imgProduto{
+    background-image: url('../img/portfolio/27.jpg');
+    background-size: cover; 
+    background-position: -20px;
+}
+#prato28 .imgProduto{
+    background-image: url('../img/portfolio/28.jpg');
+    background-size: cover; 
+    background-position: -20px;
+}
+#prato29 .imgProduto{
+    background-image: url('../img/portfolio/29.jpg');
+    background-size: cover;
+}
+#prato30 .imgProduto{
+    background-image: url('../img/portfolio/30.jpg');
+    background-size: cover;
+}
+#prato31 .imgProduto{
+    background-image: url('../img/portfolio/31.jpg');
+    background-size: cover;
+}
+#prato32 .imgProduto{
+    background-image: url('../img/portfolio/32.jpg');
+    background-size: cover;
+    background-position: -20px;
+}
+#prato33 .imgProduto{
+    background-image: url('../img/portfolio/33.jpg');
+    background-size: cover;
+    background-position: -20px;
+}
+
+
+
+/*......................Porção na Chapa...........................*/
+
+
+
+/*......................Costela no Bafo...........................*/
+
+
+#prato34 .imgProduto{
+    background-image: url('../img/portfolio/34.jpg');
+    background-size: cover;
+    background-position: 0px;
+}
+
+
+/*......................Costela no Bafo...........................*/
+
+
+
+/*........................Bife à Parmegiana.........................*/
+
+#prato38 .imgProduto{
+    background-image: url('../img/portfolio/38.jpg');
+    background-size: cover;
+    background-position: 0px;
+}
+
+/*........................Bife à Parmegiana.........................*/
+
 /*................configuração das seções.......................*/
 /*.................de diferentes pedidos .......................*/
+
+/*................configuração das seções.......................*/
+/*......................de Bebidas .............................*/
+
+/*............................Bebidas...........................*/
+
+
+/*.........................Cerveja.............................*/
+
+#prato39 .imgProduto{
+    background-image: url('../img/portfolio/39.jpg');
+    background-size: cover;
+}
+#prato40 .imgProduto{
+    background-image: url('../img/portfolio/40.jpg');
+    background-size: cover;
+}
+#prato41 .imgProduto{
+    background-image: url('../img/portfolio/41.jpg');
+    background-size: cover;
+}
+#prato42 .imgProduto{
+    background-image: url('../img/portfolio/42.jpg');
+    background-size: cover;
+}
+#prato43 .imgProduto{
+    background-image: url('../img/portfolio/43.jpg');
+    background-size: cover;
+}
+#prato44 .imgProduto{
+    background-image: url('../img/portfolio/44.jpg');
+    background-size: cover;
+}
+#prato45 .imgProduto{
+    background-image: url('../img/portfolio/45.jpg');
+    background-size: cover;
+    background-position: 0px;
+
+}
+#prato46 .imgProduto{
+    background-image: url('../img/portfolio/46.jpg');
+    background-size: cover;
+
+}
+#prato47 .imgProduto{
+    background-image: url('../img/portfolio/47.jpg');
+    background-size: cover;
+
+}
+#prato48 .imgProduto{
+    background-image: url('../img/portfolio/48.jpg');
+    background-size: cover;
+
+}
+#prato49 .imgProduto{
+    background-image: url('../img/portfolio/49.jpg');
+    background-size: cover;
+
+}
+#prato50 .imgProduto{
+    background-image: url('../img/portfolio/50.jpg');
+    background-size: cover;
+    background-position: 5px -20px;
+}
+#prato51 .imgProduto{
+    background-image: url('../img/portfolio/51.jpg');
+    background-size: cover;
+    background-position: 0px -9px;
+
+}
+#prato52 .imgProduto{
+    background-image: url('../img/portfolio/52.jpg');
+    background-size: cover;
+    background-position: 0px -9px;
+
+}
+#prato53 .imgProduto{
+    background-image: url('../img/portfolio/53.jpg');
+    background-size: cover;
+    background-position: -7px -25px;
+
+}
+#prato54 .imgProduto{
+    background-image: url('../img/portfolio/54.jpg');
+    background-size: cover;
+}
+#prato55 .imgProduto{
+    background-image: url('../img/portfolio/55.jpg');
+    background-size: 150%;
+    background-position: -20px ;
+}
+#prato56 .imgProduto{
+    background-image: url('../img/portfolio/56.jpg');
+    background-size: cover;
+    background-position: 0px;
+}
+#prato57 .imgProduto{
+    background-image: url('../img/portfolio/57.jpg');
+    background-size: cover;
+    background-position: 0px;
+}
+#prato58 .imgProduto{
+    background-image: url('../img/portfolio/58.jpg');
+    background-size: cover;
+    background-position: 0px;
+}
+
+
+
+/*.........................Cerveja.............................*/
+
+
+
+
+
+
+/*............................Bebidas...........................*/
+
+
+/*................configuração das seções.......................*/
+/*......................de Bebidas .............................*/
 
