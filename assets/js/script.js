@@ -33,8 +33,8 @@ const telefoneInput = document.getElementById("telefone");
             if (value.length > 2) {
                 value = `(${value.substring(0, 2)}) ${value.substring(2)}`;
             }
-            if (value.length > 9) {
-                value = `${value.substring(0, 9)}-${value.substring(9, 13)}`;
+            if (value.length > 10) {
+                value = `${value.substring(0, 10)}-${value.substring(10, 14)}`;
             }
             this.value = value;
         });

@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="assets/img/logos/favicon.ico" type="image/x-icon">
     <title>Santo Arco</title>
 </head>
-<body>
+<body class="cadasBody">
     <nav class="navbar" id="navbarLogin">
         <div class="container">
             <div class="tituloHome"><a href="index.html"><h1>Santo Arco</h1></a></div> 
@@ -18,8 +18,8 @@
             </div>
         </div>
     </nav>
-    <main class="mainLogin">
-        <div class="blur blurLogin">
+    <main class="">
+        <div class="">
             <div class="container">
             <form class="cadastroWin ">
                 <div class="cadastro">
@@ -65,7 +65,32 @@
                         </div>
                         <div class="textoCadastro">
                             <label for="telefone">Telefone:</label>
-                            <input type="tel" id="telefone" name="telefone" maxlength="14" placeholder="(99) 9999-9999" required>
+                            <input type="text" id="telefone" name="telefone" maxlength="15" placeholder="(##)#####-####" required>
+        
+                        </div>
+                        <div class="textoCadastro">
+                            <label for="dataNascimento">Data de Nascimento:</label>
+                            <input type="date" id="dataNascimento" name="dataNascimento" maxlength="10" placeholder="DD/MM/AAAA" required>
+        
+                        </div>
+                        <div class="textoCadastro">
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" id="endereco" name="endereco" required>
+                        </div>
+                        <div class="textoCadastro numeroBairro">
+                            <div id="numero">
+                                <label for="numero">Numero</label>
+                                <input type="number"  name="numero" required>
+                            </div>
+                            <div id="bairro">
+                                <label for="Bairro">Bairro</label>
+                            <input type="text"  name="Bairro" required>
+                            </div>
+
+                        </div>
+                        <div class="textoCadastro">
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" id="cidade" name="cidade" required>
                         </div>
                         <button type="submit" class="nav-item login " id="cadastrarButton">
                                 Cadastrar-se
