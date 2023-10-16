@@ -280,6 +280,9 @@ main .container{
     flex: 0;
     
 }
+#cadastrarButton{
+    margin-top: 20px;
+}
 .nome{
     width: 100%;
 }

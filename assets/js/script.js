@@ -24,3 +24,17 @@ const cpfInput = document.getElementById("cpf");
 cpfInput.addEventListener("input", function () {
     this.value = formatarCPF(this.value);
 });
+
+//formatação do input do telefone
+const telefoneInput = document.getElementById("telefone");
+
+        telefoneInput.addEventListener("input", function () {
+            let value = this.value.replace(/\D/g, ''); // Remove caracteres não numéricos
+            if (value.length > 2) {
+                value = `(${value.substring(0, 2)}) ${value.substring(2)}`;
+            }
+            if (value.length > 9) {
+                value = `${value.substring(0, 9)}-${value.substring(9, 13)}`;
+            }
+            this.value = value;
+        });
