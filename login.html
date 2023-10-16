@@ -19,7 +19,7 @@
             <div class="tituloHome"><a href="index.html"><h1>Santo Arco</h1></a></div> 
             <div class="navnav" id="navMenuLogin">
                 <ul type="none">
-                    <li class="nav-item"><a href="#">Cadastrar-se</a></li>
+                    <li class="nav-item"><a href="cadastro.html">Cadastrar-se</a></li>
                 </ul>
             </div>
         </div>
@@ -27,33 +27,29 @@
     <main class="mainLogin">
         <div class="blur blurLogin">
             <div class="container">
-               <div class="loginWin">
+               <form class="loginWin">
                     <div class="textoCadastro">
-                        <h2>Email:</h2>
-                        <input class="textInput" type="email" placeholder="   Digite seu email">
+                        <label for="email">Email:</label>
+                        <input class="textInput" type="email" placeholder="Digite seu email">
                     </div>
                     <div class="textoCadastro">
-                        <h2>Senha:</h2>
-                        <input class="textInput" type="password" placeholder="   Digite sua senha">
+                        <label for="senha">Senha:</label>
+                        <input type="password" class="senha" name="senha" placeholder="Digite a senha">
                     </div>
 
                     <div class="loginEvent">
                         <div id="caixaMostrar">
-                            <div>
-                                <input type="checkbox" name="" id="check">
-                            </div>
-                            <div>
-                                <p id="mostrar" >Mostre a senha</p>
-                            </div>
+                            <label class="custom-checkbox">
+                                <input type="checkbox" class="mostrarSenha">
+                                <span class="checkmark"></span>
+                                Mostrar senha
+                            </label>
                         </div>
-                        <button class="nav-item login" id="loginButton">
+                        <button class="login" id="loginButton">
                             Login
                         </button>
                     </div>
-                    <div class="addpedido">
-
-                    </div>
-               </div> 
+                </form> 
             </div>
         </div>
     </main>
