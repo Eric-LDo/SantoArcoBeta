@@ -38,3 +38,4 @@ const telefoneInput = document.getElementById("telefone");
             }
             this.value = value;
         });
+
