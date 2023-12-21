@@ -133,6 +133,12 @@
     text-decoration: underline;
     
 }
+.carrinhoCont{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: -1px -1px 7px;
+    padding: 15px;
+}
 .carrinho{
     width: 40px;
     height: 40px;
@@ -150,6 +156,11 @@
     font-size: larger;
     
 
+
+}
+.endereco{
+    align-self: self-start;
+    margin-left: 30px;
 
 }
 
